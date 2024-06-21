@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="nav">
+        <div
+          style="
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <h1>TO-DO List</h1>
+          <button id="delete" type="button">delete all</button>
+        </div>
+        <div class="todoapp">
+          <form>
+            <input type="text" placeholder="New Todo" id="inputvalue" />
+            <button id="button" type="button" style="padding: 10px">Add</button>
+          </form>
+          <ul class="todolist">
+            <!-- <li>new todo list <input type="checkbox" /></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
