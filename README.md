@@ -1,1 +1,2 @@
 # To-do-list
+A To-Do List app using TypeScript, HTML, and CSS allows users to manage tasks through a clean and interactive interface. Users can add, edit, delete, and mark tasks as complete or incomplete. The app's structure is built with HTML, styled with CSS for responsiveness, and TypeScript is used for functionality, ensuring type safety and efficient state management.  event listeners handle user interactions, providing a seamless task management experience.
